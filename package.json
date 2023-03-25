@@ -1,0 +1,19 @@
+{
+  "name": "front-end-web-development-with-react",
+  "version": "1.0.0",
+  "description": "notes",
+  "main": "week_1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/livingsneaky-art/Front-End-Web-Development-with-React.git"
+  },
+  "author": "Ryan Llamido",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/livingsneaky-art/Front-End-Web-Development-with-React/issues"
+  },
+  "homepage": "https://github.com/livingsneaky-art/Front-End-Web-Development-with-React#readme"
+}
