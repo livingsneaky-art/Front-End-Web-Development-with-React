@@ -1,4 +1,11 @@
 //Introduction to React
+/*
+    Learning Objectives
+        - Express the general characteristics of Javascript frameworks and libraries
+        - Create a new project using React
+        - Create React components within your React application
+        - Express what is meant by full-stack web development
+*/
 
 //Welcome to Front-End Web Development with React
 /*
