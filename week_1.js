@@ -197,3 +197,55 @@
 */
 
 //React App Overview
+/*
+    React Element
+        - Smallest building blocks of React apps
+            - const element = <h1 className="App-title">Welcome to React</h1>;
+        - Plain JS objects that are
+            - Cheap to create
+        - Components are "made of" elements
+            - class App extends Component {...}
+
+    Rendering to the DOM
+        - Rendered using ReactDOM. See index.js
+            - ReactDOM.render(<App />, document.getElementById('root'));
+        - Where is it rendered? See index.html
+            - <div id="root"></div>
+            - Root DOM node
+
+    ReactDoom call function render to render the App.js to display in the root ID in index.html
+*/
+
+//Introduction to JSX
+/*
+    JXS = javascript + XML = HTML-like syntax extension for JavaScript
+*/
+
+//Configuring your React Application
+/*
+    - Configure your React Project to use Reactstrap
+        - npm add bootstrap --save
+        - npm add reactstrap --save
+        - npm add react-popper --save
+    - Configure to use Bootstrap 4
+        - import 'bootstrap/dist/css/bootstrap.min.css';
+    - Adding a Navigation Bar
+        import { Navbar, NavbarBrand } from 'reactstrap';
+
+        class App extends Component {
+        render() {
+            return (
+            <div className="App">
+                <Navbar dark color="primary">
+                <div className="container">
+                    <NavbarBrand href="/">Ristorante Con Fusion</NavbarBrand>
+                </div>
+                </Navbar>
+            </div>
+            );
+        }
+        }
+*/
+//Do a Git commit with the message "Configuring React"
+
+//Introduction to React: Addtional Resources
