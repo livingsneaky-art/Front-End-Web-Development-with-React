@@ -152,3 +152,46 @@
         - React
         - Vue
 */
+
+//Introduction to React
+/*
+    What is React?
+        - A JavaScript library for building user interfaces
+        - Declarative
+        - Component-based
+        - Technology stack agnostic
+    
+    React History
+    React
+        - Designed by Jordan Walke
+        - First deployed on Facebook's newsfeed in 2011
+        - Open-sourced at JSConf US in May 2013
+        - Designed for speed, simplicity, and scalability
+    
+    React Vocabulary
+    - One-way data flow         - Virtual DOM
+    - JSX                       - Element
+    - Components                - Flux / Redux
+    - State                     - Testing
+    - Props
+*/
+
+//Getting Started with React
+/*
+    Objectives and Outcomes
+        - Install create-react-app
+        - Scaffold out a basic React application
+
+    Installing create-react-app
+        - yarn global add create-react-app@1.5.2 / npm install -g create-react-app
+        - create-react-app --help
+
+    Generating and Serving a React Project using create-react-app
+        - create-react-app confusion
+        - yarn start / npm start
+
+    Initialialize a Git Repository
+        - git init
+        - git add .
+        - got commit -m "Initial Setup"
+*/
