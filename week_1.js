@@ -89,5 +89,14 @@
 
 //Basic Git Commands
 
+//Online Git Repositories
+
+//Noje.js and NPM
+
+//Setting up Node.js and NPM
+
+//Basics of Node.js and NPM
+
+//Setting up your Development Environment: Git and Node: Addtional Resources
 
 
