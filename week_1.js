@@ -260,7 +260,17 @@
 
 //React Components
 /*
+    React Components
+        - A component returns a set of React elements that should appear on the screen
+        - Components enable you to split your UI into independent, reusable pieces
+        - Components also accept inputs
+        - Different kinds of components can be defined in React
 
+    Component Conventions
+        - User-defined component names must always start with a capital letter
+            - These compile to React.createElement(...)
+        - Tags starting with lowercase letters are treated as DOM tags
+            - Built-in components
 */
 
 
