@@ -251,5 +251,13 @@
 //Introduction to React: Addtional Resources
 
 
+//React Components
+//React Components: Objectives and Outcomes
+/*
+    - Create a React component
+    - Construct the React component code and the view for your component using JSX and JavaScript
+*/
+
+
 
 
