@@ -359,5 +359,24 @@
     In this exercise we used a list of Cards to display the information in the menu component. Also we used a card to display the details of a selected dish.
 */
 
+//React Components: Lifecycle Methods Part 1
+/*
+    React Component Lifecycle
+        - React Component goes through the following lifecycle stages:
+            - Mounting
+            - Updating
+            - UnMounting
+        - Several lifecycle methods available in each stage
+    
+    Mounting Lifecycle Methods
+        - Called when an instance of a component is being created and inserted into the DOM:
+            - constructor()
+            - getDerievedStateFromProps()
+            - render()
+            - componentDidMount()
+        - An earlier method now deprecated called componentWillMount()
+
+    React Developer Tools
+*/
 
 
