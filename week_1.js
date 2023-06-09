@@ -280,7 +280,75 @@
             - Use JSX to define the views of your component
 */
 
+//React Components: State and Props
+/*
+    State
+        - Each component can store its own local information in its "state"
+            - Private and fully controlled by the component
+            - Cab be passed as props to children
+        - Only class components can have local state
+    
+    State declared within the constructor:
+        class Menu extends Component {
+            constructor(props) {
+                super(props);
 
+                this.state = {
+                    selectedDish: null
+                }
+            }
+            ...
+        }
+    
+    State should only be modified using setState()
+        onDishSelect(dish) {
+            this.setState({ 
+                selectedDish: dish
+            });
+        }
+
+    Never do the following:
+        this.state.selectedDish = dish;
+
+    Props
+        - JSX attributes are passed into a component as a single object
+            - Available in the component as "props"
+            - Can pass in multiple attributes
+            - Cannot modify props within the component
+        - Exmaples:
+            <Menu dishes={this.state.dishes} />
+                - Here the dishees are available as props within the Menu Component and can be accessed as this.props.dishes
+                
+            <Dishdetail dish={this.state.dish} comments={this.state.comments} />
+                - Here dish is available as props within the Dishdetail Component and can be accessed as this.props.dish, and comments as this.props.comments
+
+    Handling Events
+        - Handling events is similar to the way you handle events on DOM elements:
+            - Use camelCase to specify events
+            - Pass function as the event handler
+        
+        - Example:
+            <Card onClick={() => this.onDishSelect(dish)}>
+    
+    Lifting State Up
+        - Sometimes several components may share the same data
+        - Change to data in one component nneds to be reflected to another component
+        - Best to move the shared state to a common ancestor component
+
+    Lists and Keys
+        - List are handled similar to Javascript
+        - Example: 
+            const menu = this.props.dishes.map((dish) => {
+                return (
+                    <div key={dish.id}>
+                        <h1>{dish.name}</h1>
+                        <p>{dish.description}</p>
+                    </div>
+                );
+            });
+        Keys should be given to elements inside the array
+            - Help identify which items have changed, are added or removed
+*/
 
 
 
