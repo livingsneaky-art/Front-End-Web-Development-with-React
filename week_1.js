@@ -275,7 +275,9 @@
 
 //Exercise: React Components Part 1
 /*
-
+        Objectives and Outcomes
+            - Add components to your React application
+            - Use JSX to define the views of your component
 */
 
 
