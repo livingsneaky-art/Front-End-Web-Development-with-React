@@ -350,7 +350,14 @@
             - Help identify which items have changed, are added or removed
 */
 
+//Exercise: React Components Part 2
+/*
+    Objectives and Outcomes
+        - Make use of the Card component to display a list of items
+        - Use the Card component to display detailed information
 
+    In this exercise we used a list of Cards to display the information in the menu component. Also we used a card to display the details of a selected dish.
+*/
 
 
 
