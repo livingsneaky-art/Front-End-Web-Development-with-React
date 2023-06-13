@@ -381,7 +381,12 @@
 
 
 //Assignment 1 Requirements: React Components
-
+/*
+    Objectives and Outcomes
+        - Create a new DishdetailComponent and added it to your React application
+        - Updated the view of the DishdetailComponent to display the details of the selected dish using an reactstrap card component.
+        - Updated the view of the DishdetailComponent to display the list of comments about the dish using the Bootstrap unstyled list component
+*/
 
 
 
